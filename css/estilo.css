@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   margin: 80px 0;
+}
+
+
+nav{
+    background-color:  rgb(54, 10, 36);
+    position: absolute;
+    width: 100%;
+    top:0;
+    font-size: 20pt;
+    text-align: center;
+
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: antiquewhite;
+    
+}
+
+nav > ul > li {
+    display: inline-block;
+    position: relative;
+    padding: 30px;
+    color:antiquewhite;
+    background-color: rgb(73, 6, 45);
+}
+
+nav ul li ul li{
+    background-color: rgb(112, 6, 68);;
+    color: rgb(224, 16, 137);
+}
+
+nav ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width:100%;
+    display: none;
+}
+
+nav > ul > li:hover {
+    background-color:rgb(224, 16, 137);
+    color: antiquewhite;        
+}
+
+nav > ul > li:hover ul {
+    display: block;    
+}
+
+nav > ul > li > ul > li:hover{
+    background-color:rgb(240, 76, 172);
+}
+
+div{
+    padding: 20px;
+}
+
+img{
+    border-radius: 15px;
+    width: 250px 75%;
+}
+
+article{
+    background-color: bisque;
+}
+
+
+article > p{
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+ h2 ~ p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right:10px;
+    margin: 10px;    
+}
+
+.ajuste{
+    border-radius: 8px;
+    width: 210px;
+    text-align: left;
+
+}
+
+.ajuste2{
+    border-radius: 8px;
+    width: 50%;
+}
+ h1{
+    text-align: center;
+ }
+
+ div{
+    display:flex;
+    padding-right: 20px;
+ 
+}
+
+ div > p  {
+    padding-left: 30px;   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div ol{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div ul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+div > ol{
+font-size: 20px;
+padding: 10px;
+}
+
+div > ul{
+    font-size: 20px;
+    padding: 10px;
+    }
+
+    h3 > i{
+        padding: 10px;
+        font-size: 25px;
+        outline: 8px;
+    }
+
+
+div > figcaption{
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    }
+
+.estilo{
+    background-color: rgb(196, 68, 94);
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+ .ajuste3 + .ajuste2 {
+    width: 75%;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.logo{
+    width: 50px; 
+    height: 50px; 
+    float: right; 
+    background: url(../imagens/logo.png) 
+    center center/50px no-repeat;
+    font-size: 0;
+    position: relative;
+    border-radius: 8px;
+    
+}
+
+.cabecalho{
+    width: 10%;
+    float: right;
+    padding: -5% 4%;
+}
+
+.final{
+    font-size: 80px;
+    text-align: right;
+    background-color: darkred;
+    color: antiquewhite;
+}
+header{
+    position: fixed;
+    padding-bottom: 20px;
+    padding-left: 93%;
+}
+
+.goku{
+    width:350px;
+    border-radius: 8px;
+}
